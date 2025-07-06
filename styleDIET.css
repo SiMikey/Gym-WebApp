@@ -1,0 +1,185 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+header {
+  background-color: #ec8787;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  animation: shake 0.5s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: #f9d9d9;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #f5f5f5;
+}
+img {
+  display: grid;
+  margin: 0 auto;
+  width: 20%;
+  height: 20%;
+  padding-bottom: 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+ol {
+  list-style-type: decimal;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-justify: inherit;
+  padding-top: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
+}
+
+li:before {
+  content: "";
+  border-radius: 50%;
+  background-color: #68e36c;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+footer {
+  background-color: #f4f4f4;
+  color: #666;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-media li {
+  margin: 0 5px;
+}
+
+.social-media a {
+  color: #666;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #333;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 30px 0;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #888;
+}
