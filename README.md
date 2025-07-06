@@ -2,7 +2,7 @@
 
 A modern and responsive gym website built using **HTML**, **CSS**, and **JavaScript**. This web app showcases fitness programs, trainer profiles, and allows users to book training sessions online.
 
-![Screenshot 1](screenshots/![screenshot2](https://github.com/user-attachments/assets/46a7b173-5f18-4179-8c2b-4eb67663006e)
+![Screenshot 1](photos/screenshot2.png
 )
 ![Screenshot 2](screenshots/programs-page.png)
 ![Screenshot 3](screenshots/contact-form.png)
