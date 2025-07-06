@@ -4,7 +4,7 @@ A modern and responsive gym website built using **HTML**, **CSS**, and **JavaScr
 
 ![Screenshot 1](screenshots/screenshot2.png)
 ![Screenshot 2](screenshots/shapeup.png)
-![Screenshot 3](screenshots/contact-form.png)
+![Screenshot 3](screenshots/screenshot4.png)
 
 ---
 
